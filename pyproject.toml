@@ -1,0 +1,12 @@
+[project]
+name = "mlops"
+version = "0.1.0"
+description = "MLops using MLFlow and Marimo"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "marimo>=0.24.2",
+    "mlflow>=3.16.1",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.1",
+]
